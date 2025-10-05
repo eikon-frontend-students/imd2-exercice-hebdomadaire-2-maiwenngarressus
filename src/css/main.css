@@ -26,7 +26,12 @@ main {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   padding: 20 50 20 50px;
+}
+
+.menu {
+  width: 30px;
 }
 
 .nav {
@@ -54,8 +59,8 @@ a {
 }
 
 .icon {
-  width: 24px;
   background-color: white;
   padding: 20px;
   border-radius: 100%;
+  width: 64px;
 }
